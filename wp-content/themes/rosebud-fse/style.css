@@ -1,0 +1,58 @@
+/*
+Theme Name: Rosebud FSE
+Theme URI: https://gracethemes.com/themes/free-floral-studio-wordpress-theme/
+Author: Grace Themes
+Author URI: https://gracethemes.com/
+Description: The Rosebud FSE is a free floral Studio WordPress theme perfectly suitable for floral studios, florists, floral designers, gardeners, event management companies, and all other commercial websites associated with floral trading. Packed with the latest features and functions, if you pick this free florist WordPress theme, you can avail the best advantages for your website. The homepage offered by it is highly presentable and professional-looking. As it is highly customizable, you can easily make changes to it. This is a full-site editing-based theme. Thus, every aspect of it can be readily personalized, starting from the fonts to the color schemes. This free florist WordPress theme is widget-friendly hence, comes integrated with multiple widgets. This WordPress theme offers a brilliant HD-ready display quality that runs with the same efficiency on devices of various resolutions without cracking. The speed is another incredible aspect of this free florist WordPress theme. It is a completely multi-browser compatibility option and runs efficiently on multiple browsers. Demo: https://gracethemesdemo.com/rosebud/
+Version: 1.0
+License: GNU General Public License version 2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: rosebud-fse
+Requires PHP:  5.6
+Tested up to: 6.5
+Tags:blog, news, portfolio, one-column, two-columns, right-sidebar, block-styles, custom-colors, editor-style, custom-background, custom-menu, featured-images, template-editing, full-site-editing, block-patterns,  threaded-comments, wide-blocks, translation-ready
+Rosebud FSE WordPress Theme has been created by Grace Themes(gracethemes.com), 2024.
+Rosebud FSE WordPress Theme is released under the terms of GNU GPL
+*/
+body { position:relative;}
+.wp-block-navigation ul{ padding:10px !important;}
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container{  background-color:#348e37; }
+
+body.page-template-front .ink-site-header {  width:100%; z-index:999;}
+.ink-site-header{  background-color:#000; position:relative !important;}
+.clear{ clear:both;}
+
+/* = Blog page Design CSS
+----------------------------------------------- */
+ul.blog-list-style{ margin:0; padding:0; }
+ul.blog-list-style li{ margin-bottom:25px; border-radius:10px; display:flow-root;}
+ul.blog-list-style li .blog-thumbx{ width:45%; float:left; margin:0 35px 20px 0;}
+
+/* = Contact Form 7 CSS
+----------------------------------------------- */
+.wpcf7{ margin:30px 0 0;padding:0;}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="email"]{ width:40%;border:1px solid #cccccc;box-shadow:inset 1px 1px 2px #ccc;color:#797979;margin-bottom:0;height:40px;padding:0 15px;}	
+.wpcf7 textarea{color:#797979;margin-bottom:25px;border:1px solid #cccccc;box-shadow:inset 1px 1px 2px #ccc;padding:10px;width:60%;	height:160px;font-size:12px;}
+.wpcf7 input[type="submit"]{border-radius:40px;font-weight:600;font-size:16px;cursor:pointer;background-color:#60c19f;padding:20px 40px;color:#ffffff;width:auto;border:none;text-transform:uppercase;}
+.wpcf7 input[type="submit"]:hover{background-color:#101010;}
+
+/* = Footer CSS
+----------------------------------------------- */
+.footer-3-column{ position:relative;}
+.footer-3-column h3.wp-block-heading{ position:relative; padding-bottom:20px;}
+.footer-3-column h3.wp-block-heading::before{ position: absolute; content:''; bottom:0; left:0; width:70px; height:2px; background-color:#8cc73e}
+
+ul.fs-footer-post{ margin:0; padding:0;}
+ul.fs-footer-post li{ list-style:none; margin-bottom:30px;}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image{ margin-top:6px;}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image img{ border-radius:10px;}
+ul.fs-footer-post li .wp-block-latest-posts__post-title{ margin-bottom:15px; display:block; line-height:22px;}
+ul.fs-footer-post li .wp-block-latest-posts__post-title:hover{ color:#8cc73e;}
+footer.wp-block-template-part{ margin-block-start:0 !important}
+
+.Footer-QuickLinks{ list-style:none !important; padding:0 !important;}
+.Footer-QuickLinks li{ list-style:none !important; padding:5px 0 5px 0 !important;}
+/*.Footer-QuickLinks li::marker { content: ' > ';  font-size: 16px;  }*/
+.Footer-QuickLinks li a:hover{ text-decoration:none; font-weight:600;}
